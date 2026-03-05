@@ -32,11 +32,69 @@ nav{
 .navLinks >a{
     color: white;
     text-decoration: none;
+    padding: 0px 8px;
+    position: relative;
 }
-.profileName >h3{
+.profileName,a{
     color: white;
+    text-decoration: none;
+    padding: 0px 8px;
+    position: relative;
 }
+
 .navBar{
-    margin: 10px 50px 100px 200px;
-    padding: 10px 50px 20px 200px;
+    padding: 20px;
+}
+
+a::after{
+    content: "";
+    width: 100%;
+    background-color: white;
+    height: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    border-radius: 10px;
+    display: none;
+    transition: 5s ease;
+}
+
+a:hover::after{    
+    display: block;
+    transition: 5ms ease;
+}
+
+a:hover{
+    color: red;
+    transition: 5s ease;
+}
+.Image{
+    background-image: url(./Image/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 400px;
+        margin-left: 20px;
+}
+.Designation{
+    height: 20px;
+    letter-spacing: 5px;
+    text-shadow: 2px 1px red;
+}
+.heroContent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.heroConetentRight{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    line-height: 50px;
+}
+.heroConetentLeft,.heroConetentRight{
+    width: 40%;
+}
+.aboutme{
+    font-size: 1.23em;
 }
