@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
 }
 
 nav{
@@ -17,6 +20,10 @@ nav{
     /* justify-content: space-between; */
     /* justify-content: space-around; */
     justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .navLinks{
     display: flex;
@@ -74,7 +81,7 @@ a:hover{
     background-size: cover;
     height: 600px;
     width: 400px;
-        margin-left: 20px;
+    margin-left: 20px;
 }
 .Designation{
     height: 20px;
@@ -97,4 +104,47 @@ a:hover{
 }
 .aboutme{
     font-size: 1.23em;
+}
+
+#head{
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 2px 2px steelblue;
+    position: sticky;
+    top: 9vh;
+    float: right;
+}
+.boxes{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    flex-direction: column-reverse;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.box{
+    background: linear-gradient(rgba(0, 98, 254, 0.655),rgba(221, 0, 255, 0.74));
+    color: white;
+    width: 200px;
+    height: 350px;
+}
+/* .box:nth-child(2){
+    background-color: red;
+} */
+ /* .box:first-child{
+    background-color: red;
+} */
+
+#head::first-letter{
+    color: red;
+}
+/* .boxes{
+    background: linear-gradient(red,green,blue);
+} */
+
+
+.box1{
+    /* flex-shrink: 0; */
+    /* flex-basis: 400px; */
+    flex-grow: 2;
 }
