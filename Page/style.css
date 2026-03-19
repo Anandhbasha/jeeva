@@ -107,12 +107,13 @@ a:hover{
 }
 
 #head{
-    text-align: center;
+    /* text-align: center; */
     text-decoration: overline;
     text-shadow: 2px 2px steelblue;
     position: sticky;
     top: 9vh;
-    float: right;
+    /* float: right; */
+    justify-content: center;
 }
 .boxes{
     display: flex;

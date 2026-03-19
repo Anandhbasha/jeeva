@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            animation: bgColor 5s infinite;
+            
+        } */
+        /* @keyframes bgColor {
+            0%{
+                background-color: black;
+            }
+            25%{
+                background-color: purple;
+            }
+            50%{
+                background-color: palevioletred;
+            }
+            75%{
+                background-color: blue;
+            }
+            100%{
+                background-color: yellow;
+            }
+        } */
+         .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            animation: bgColor 5s infinite;
+         }
+         @keyframes bgColor {
+            from{
+                left: 0px;
+            }
+            to{
+                left: 300px;
+            }
+         }
+         .navbar{
+            background-color: palevioletred;
+            height: 8vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+         }
+         a{
+            text-decoration: none;
+            color: rgb(17, 250, 0);
+            font-size: 1.3em;
+            font-weight: 600;
+         }
+         .line{
+            width: 30px;
+            height: 4px;
+            background-color: red;
+            margin-bottom: 4px;
+         }
+         .hamburger{
+            display: none;
+         }
+         @media screen and (min-width:500px) {
+            .hamburger{
+                display: block;
+                
+            }
+            .navbar{
+                justify-content: flex-end;
+                background-color: black;
+            }
+            a{
+                display: none;
+            }
+         }
+        @media screen and (min-width:300px) {
+            .navbar{
+                background-color: rgb(192, 235, 255);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div class="box"></div> -->
+     <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+        <div class="hamburger">
+            <div class="line1 line"></div>
+            <div class="line2 line"></div>
+            <div class="line3 line"></div>
+        </div>
+     </nav>
+</body>
+</html>
