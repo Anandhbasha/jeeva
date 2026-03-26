@@ -34,11 +34,104 @@
 // global scope
 // let,const
 // local scope
-let a =20
-{
-    //string concordination
-    console.log("The a value is:"+a);  
-}
+// let a =20
+// {
+//     //string concordination
+//     console.log("The a value is:"+a);  
+// }
+
+// operators
+// Arithmetic 
+// +,-,/,*,%,++,--
+let a =10
+let b =5
+console.log(a+b);//15
+console.log(a-b);//5
+console.log(a*b);//50
+console.log(a/b);//2
+console.log(a%b);//0
+console.log(++a);
+console.log(a++);
+console.log(a);
+console.log(b--);
+console.log(b);
+
+console.log(a+b*(a/b)+3);
+
+// 12+4*(3)+3
+//12+12+3
+//27
+
+// () first Priority
+// increment or decrement
+// multiply
+// division
+// modulus
+// addtion
+// sub
+
+// comparision
+// >,<,<=,>=,!=,==,===
+console.log(a>b);
+console.log(a<b);
+console.log(a<=13);
+console.log(b>=4);
+console.log(a!=b);
+console.log(a=="12");
+console.log(a==="12");
+
+// assigment 
+// =,+=,-=,*=,/=
+a+=10
+// a = a+10
+a*=2
+console.log(a);
+a/=4
+console.log(a);
+
+// logical operator
+// &&,||,!
+console.log(a>b && a>=b && b!=4);
+console.log(a<b || a>=b || b!=4);
+
+// ternary
+
+// Data types
+// Simple data type
+// premitive
+let num1=10
+// number
+console.log(typeof(a));
+// boolean
+todayClass = true
+// string
+userName = "Abc"
+console.log(typeof(userName));
+
+// undefined
+// let d = undefined;
+// console.log(typeof(d));
+
+// null
+let d = null;
+console.log(d);
+
+// Nan
+// Not a Number
+console.log(a+userName);
+console.log(a*userName);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
