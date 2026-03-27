@@ -1,125 +1,191 @@
-// let h1 = document.createElement("h1")
-// h1.innerHTML = "Hello Welcome"
-// document.body.append(h1)
+// // // let h1 = document.createElement("h1")
+// // // h1.innerHTML = "Hello Welcome"
+// // // document.body.append(h1)
 
-// alert("Hello")
+// // // alert("Hello")
 
-// console.log("Hello");
+// // // console.log("Hello");
 
-// Hoisting
-//variable declaration
-// var
-// var a=10
-//a-> variable
-//=-> assignment opeartor
-//10-> value
-// console.log(b);
-// a=20 //re assign
-// var b=a
-//type is var
-// b=30
-// var b= 60 //re declare
-// console.log(b);
-// Es6 concept ->Ecma Script
-// let
-// console.log(a);
-// let a =20
-// console.log(a);
-//const
-// const b = 30
-// b=50
-// console.log(b);
+// // // Hoisting
+// // //variable declaration
+// // // var
+// // // var a=10
+// // //a-> variable
+// // //=-> assignment opeartor
+// // //10-> value
+// // // console.log(b);
+// // // a=20 //re assign
+// // // var b=a
+// // //type is var
+// // // b=30
+// // // var b= 60 //re declare
+// // // console.log(b);
+// // // Es6 concept ->Ecma Script
+// // // let
+// // // console.log(a);
+// // // let a =20
+// // // console.log(a);
+// // //const
+// // // const b = 30
+// // // b=50
+// // // console.log(b);
 
-// var 
-// global scope
-// let,const
-// local scope
-// let a =20
-// {
-//     //string concordination
-//     console.log("The a value is:"+a);  
+// // // var 
+// // // global scope
+// // // let,const
+// // // local scope
+// // // let a =20
+// // // {
+// // //     //string concordination
+// // //     console.log("The a value is:"+a);  
+// // // }
+
+// // // operators
+// // // Arithmetic 
+// // // +,-,/,*,%,++,--
+// // let a =10
+// // let b =5
+// // console.log(a+b);//15
+// // console.log(a-b);//5
+// // console.log(a*b);//50
+// // console.log(a/b);//2
+// // console.log(a%b);//0
+// // console.log(++a);
+// // console.log(a++);
+// // console.log(a);
+// // console.log(b--);
+// // console.log(b);
+
+// // console.log(a+b*(a/b)+3);
+
+// // // 12+4*(3)+3
+// // //12+12+3
+// // //27
+
+// // // () first Priority
+// // // increment or decrement
+// // // multiply
+// // // division
+// // // modulus
+// // // addtion
+// // // sub
+
+// // // comparision
+// // // >,<,<=,>=,!=,==,===
+// // console.log(a>b);
+// // console.log(a<b);
+// // console.log(a<=13);
+// // console.log(b>=4);
+// // console.log(a!=b);
+// // console.log(a=="12");
+// // console.log(a==="12");
+
+// // // assigment 
+// // // =,+=,-=,*=,/=
+// // a+=10
+// // // a = a+10
+// // a*=2
+// // console.log(a);
+// // a/=4
+// // console.log(a);
+
+// // // logical operator
+// // // &&,||,!
+// // console.log(a>b && a>=b && b!=4);
+// // console.log(a<b || a>=b || b!=4);
+
+// // // ternary
+
+// // // Data types
+// // // Simple data type
+// // // premitive
+// // let num1=10
+// // // number
+// // console.log(typeof(a));
+// // // boolean
+// // todayClass = true
+// // // string
+// // userName = "Abc"
+// // console.log(typeof(userName));
+
+// // // undefined
+// // // let d = undefined;
+// // // console.log(typeof(d));
+
+// // // null
+// // let d = null;
+// // console.log(d);
+
+// // // Nan
+// // // Not a Number
+// // console.log(a+userName);
+// // console.log(a*userName);
+
+// //Non Premitive
+// // Array
+// let arr1 = ["arun","ajay","bala"]
+// console.log(arr1);
+// // index
+// // 0-arun -3
+// // 1-ajay -2
+// // 2-bala -1
+// console.log(arr1[0]);
+
+
+// // Object 
+// const person  = {
+//     name:"arun",
+//     age:30,
+//     address:"CBE",
+//     family:{
+//         dad:"abc",
+//         mom:"xyz"
+//     }
+// }
+// console.log(person);
+// console.log(person.name);
+// console.log(Object.keys(person),Object.keys(person.family));
+// let key = Object.keys(person)
+// // console.log(key[3]);
+
+
+// functions
+// let a = 10
+// let b=20
+// console.log(a+b);
+
+// let c =30
+// let d =40
+// console.log(c+d);
+// function functionname(){
+// logic
+// }
+// function add(a,b){
+//     console.log(a+b);    
 // }
 
-// operators
-// Arithmetic 
-// +,-,/,*,%,++,--
-let a =10
-let b =5
-console.log(a+b);//15
-console.log(a-b);//5
-console.log(a*b);//50
-console.log(a/b);//2
-console.log(a%b);//0
-console.log(++a);
-console.log(a++);
-console.log(a);
-console.log(b--);
-console.log(b);
+// // arrow
+// const calls = (num1,num2)=>console.log(num1*num2)
+// calls(2,4)
+// // IFFI
+// const iffis = (function(){
+//     console.log("IFFI");
+    
+// })
+// iffis()
+// //ananoums
+let add = function(a,b){
+    return(a*b);
+    
+}
+console.log(add(10,20));
+// console.log(220);
 
-console.log(a+b*(a/b)+3);
+add(30,40)
+add(50,60)
+add(33,55)
+add(22,11)
 
-// 12+4*(3)+3
-//12+12+3
-//27
-
-// () first Priority
-// increment or decrement
-// multiply
-// division
-// modulus
-// addtion
-// sub
-
-// comparision
-// >,<,<=,>=,!=,==,===
-console.log(a>b);
-console.log(a<b);
-console.log(a<=13);
-console.log(b>=4);
-console.log(a!=b);
-console.log(a=="12");
-console.log(a==="12");
-
-// assigment 
-// =,+=,-=,*=,/=
-a+=10
-// a = a+10
-a*=2
-console.log(a);
-a/=4
-console.log(a);
-
-// logical operator
-// &&,||,!
-console.log(a>b && a>=b && b!=4);
-console.log(a<b || a>=b || b!=4);
-
-// ternary
-
-// Data types
-// Simple data type
-// premitive
-let num1=10
-// number
-console.log(typeof(a));
-// boolean
-todayClass = true
-// string
-userName = "Abc"
-console.log(typeof(userName));
-
-// undefined
-// let d = undefined;
-// console.log(typeof(d));
-
-// null
-let d = null;
-console.log(d);
-
-// Nan
-// Not a Number
-console.log(a+userName);
-console.log(a*userName);
 
 
 
