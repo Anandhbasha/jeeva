@@ -173,18 +173,74 @@
     
 // })
 // iffis()
-// //ananoums
-let add = function(a,b){
-    return(a*b);
+// // //ananoums
+// let add = function(a,b){
+//     return(a*b);
+    
+// }
+// console.log(add(10,20));
+// // console.log(220);
+
+// add(30,40)
+// add(50,60)
+// add(33,55)
+// add(22,11)
+
+// conditional Statement
+// if
+let age = 10
+if(age>=18){
+    console.log("He is Eligible to vote")
+}
+
+
+// ifelse
+// if(age>=18){
+//     console.log("He is Eligible to vote")
+// }
+// else{
+//     console.log("Not Eligible");    
+// }
+// elseif
+// if(age>19){
+//     console.log("He is Adult");    
+// }
+// else if(age<13){
+//     console.log("He is Child");    
+// }else{
+//     console.log("He is Teenager");
+    
+// }
+
+// nestedif
+
+// looping statement
+// while
+while(condition){
     
 }
-console.log(add(10,20));
-// console.log(220);
+// do while
+// for
 
-add(30,40)
-add(50,60)
-add(33,55)
-add(22,11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
