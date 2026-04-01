@@ -216,11 +216,42 @@ if(age>=18){
 
 // looping statement
 // while
-while(condition){
+// let a = 10
+// while(a>=0){ //a=0
+//     console.log(a); //0 1 2 3 10
+//     a-- //a=3
+// }
+let arr = [10,20,30,40,50]
+// 5
+// index
+// //0
+// let a =arr.length-1
+// while(a>=0){
+//     console.log(arr[a]);
+//     a--
+// }
+// // do while
+// do{
+//     console.log("Hello");
     
-}
-// do while
-// for
+// }while(10==15)
+// // for
+// for(let a=0;a<arr.length;a++){
+//     console.log(arr[a]);
+    
+// }
+// for of
+// for(let x of arr){
+//     console.log(x);
+    
+// }
+// // for in
+// for(let x in arr){
+//     console.log(arr[x]);
+    
+// }
+// foreach
+arr.forEach((x)=>console.log(x))
 
 
 
