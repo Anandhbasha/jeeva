@@ -221,7 +221,7 @@ if(age>=18){
 //     console.log(a); //0 1 2 3 10
 //     a-- //a=3
 // }
-let arr = [10,20,30,40,50]
+// let arr = [10,20,30,40,50]
 // 5
 // index
 // //0
@@ -251,7 +251,110 @@ let arr = [10,20,30,40,50]
     
 // }
 // foreach
-arr.forEach((x)=>console.log(x))
+// arr.forEach((x)=>console.log(x))
+
+// array methods
+// let arr = [10,20,30,40,50]
+// arr.pop()
+// console.log(arr);
+// arr.push(151)
+// console.log(arr);
+// arr.shift()
+// console.log(arr);
+// arr.unshift(33)
+// console.log(arr);
+// // Map
+// arr.map((x)=>{
+//     if(x%5===0){
+//         console.log(x);        
+//     }
+// })
+
+// x=10
+// x=20
+// x=30
+// x=40
+// x=50
+
+// filter
+// let even = arr.filter((item)=>item%2===0)
+// console.log(even);
+let arr = [20,10,30,40,50]
+
+// let sum =0
+// let total = 0
+// while(sum<arr.length){ //0<5
+//     total +=arr[sum];  //10  
+//     ++sum
+// }
+// // console.log(total);
+// const total = arr.reduce((x,y)=>x+y)
+// //x= 0 y=10 10+0 = 10 
+// //x= 10 y=20 10+20 = 30 
+// //x= 30 y=30 30+30 = 60 
+// //x= 60 y=40 60+40 = 100 
+// //x= 100 y=50 100+50 = 150 
+// console.log(total);
+
+// indexOf
+// console.log(arr.indexOf(11));
+
+// includes
+// console.log(arr.includes(10));
+// find
+// console.log(arr.find((x)=>x===11));
+
+// sort
+// console.log(arr.sort());
+
+//reverse
+//  console.log(arr.reverse());
+//slice
+// console.log(arr.slice(0,1));
+// start point
+// end point+1
+
+//splice
+// arr.splice(1,2)
+// start
+// end
+arr.splice(1,3,15)
+// index
+// no of elements to remove
+// replament value
+console.log(arr);
+
+//join
+let ar1 = ["HTML","CSS","JS"]
+let res = ar1.join("-")
+console.log(res);
+
+let text = "I Love Coding"
+let newRes = text.split(" ").join("/")
+console.log(newRes);
+
+//concat
+let a = [1,2]
+let b=[3,4]
+let result = a.concat(b)
+console.log(result);
+
+//some
+// let newSome = arr.some(x=>x>100)
+// console.log(newSome);
+
+// // every
+// let newSome = arr.every(x=>x>10)
+// console.log(newSome);
+//flat
+let newArr = [1,2,[3,4]]
+let newSome = newArr.flat()
+console.log(newSome);
+
+
+
+
+
 
 
 
