@@ -12,9 +12,17 @@
         <input type="text" onchange="getValue(event)">
         <input type="submit">
     </form> -->
-    <button id="button">Skip</button>
-    <input type="text" id="userInput">
+   
+    <input type="text" id="userInput" >
+    <button onclick="saveData()">Skip</button>
     <script type="module" src="main.js"></script> 
-    <script type="module" src="index.js"></script> 
+    <script type="module" src="index.js"></script>
+    <script>
+        const saveData = ()=>{
+        let userInput = document.getElementById("userInput").value
+        sessionStorage.setItem("userName",userInput)
+        console.log("User Logged succesfully");
+    }
+    </script> 
 </body>
 </html>

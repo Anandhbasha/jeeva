@@ -563,12 +563,35 @@ export const userName = "Jeeva"
 
 //  SessionStorage
 
+
 // JSON handling
+// {
+//     "name:"Jeeva",
+//     "age":30,
+//     "address":"CBE",
+//     "family":{
+//         "dad":"abc",
+// //         "mom":"xyz"
+// //     }
+// // }
+
+// const person  = {
+//     name:"arun",
+//     age:30,
+//     address:"CBE",
+//     family:{
+//         dad:"abc",
+//         mom:"xyz"
+//     }
+// }
+
+// let jsonData = JSON.stringify(person)
+// console.log(jsonData);
+// let objData = JSON.parse(jsonData)
+// console.log(objData.name);
 
 
-
-
-
+//DOM   
 
 
 
